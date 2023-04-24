@@ -22,9 +22,12 @@ public class Broken_links {
         //System.setProperty("webdriver.chrome.driver", "C:\\Users\\sunee\\Desktop\\chrome105\\chromedriver_win32\\chromedriver.exe");
         WebDriverManager.chromedriver().setup();
 
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200","--ignore-certificate-errors", "--silent");
-        WebDriver driver = new ChromeDriver(options);//Creating an instance of the WebDriver class
+        ChromeOptions opt = new ChromeOptions();
+        opt.addArguments("--remote-allow-origins=*");
+
+        //ChromeOptions options = new ChromeOptions();
+        //options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200","--ignore-certificate-errors", "--silent");
+        WebDriver driver = new ChromeDriver(opt);//Creating an instance of the WebDriver class
 
         driver.manage().window().maximize();
 

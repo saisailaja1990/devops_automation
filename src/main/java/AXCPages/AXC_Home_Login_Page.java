@@ -2,6 +2,7 @@ package AXCPages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class AXC_Home_Login_Page {
     WebDriver driver;
@@ -9,6 +10,18 @@ public class AXC_Home_Login_Page {
     public AXC_Home_Login_Page(WebDriver driver) {
         this.driver = driver;
     }
+    /*@FindBy(id="useremail")
+    WebElement EmailID;
+    */
+     /*@FindBy(id="useremail")
+    WebElement password;
+    */
+     /*@FindBy("togglePassword")
+    WebElement showPSW;
+    */
+     /*@FindBy(id="//input[@class='button signin-button success']")
+    WebElement Sign_in_btn;
+    */
 
     By EmailID = By.id("useremail");
     By password = By.id("login-temp-password");
@@ -17,6 +30,7 @@ public class AXC_Home_Login_Page {
 
 
     public void enterEmail(String user)
+
     {
         driver.findElement(EmailID).sendKeys(user);
     }
