@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f05bbc8-0dab-443f-9610-7ad794adf5b9" name="Changes" comment="Pageobject AXC-login">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AXCPages/AXC_Home_Login_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AXCPages/AXC_Home_Login_Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AXCPages/AXC_Secrets_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AXCPages/AXC_Secrets_Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AXCTestCases/AXC_Login_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AXCTestCases/AXC_Login_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AXC_test_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AXC_test_Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Broken_links.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Broken_links.java" afterDir="false" />
-    </list>
+    <list default="true" id="1f05bbc8-0dab-443f-9610-7ad794adf5b9" name="Changes" comment="test axcrypt" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,7 +112,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669813348092</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test axcrypt">
+      <created>1682345609404</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682345609404</updated>
+    </task>
+    <task id="LOCAL-00005" summary="test axcrypt">
+      <created>1682345829158</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682345829158</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,7 +142,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Pageobject AXC-login" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pageobject AXC-login" />
+    <MESSAGE value="test axcrypt" />
+    <option name="LAST_COMMIT_MESSAGE" value="test axcrypt" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Net_AxCrypt$AXC_test_Login.ic" NAME="AXC_test_Login Coverage Results" MODIFIED="1681722966648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
