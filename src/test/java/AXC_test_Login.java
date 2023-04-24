@@ -3,14 +3,23 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 public class AXC_test_Login {
     //public WebDriver driver;
     public static void main(String[] args) {
+
+
+        ChromeOptions opt = new ChromeOptions();
+        opt.addArguments("--remote-allow-origins=*");
+// Launching the browser
+       // driver=new ChromeDriver(opt);
         WebDriverManager.chromedriver().setup();
-        WebDriver driver = new ChromeDriver();
+        WebDriver driver = new ChromeDriver(opt);
+
+
         driver.manage().window().maximize();
-        driver.get("https://test.axcrypt.net/en/Home/Login");
+        driver.get("https://account.axcrypt.net/en/Home/Login");
         WebElement EmailID= driver.findElement(By.id("useremail"));
         EmailID.sendKeys("Saisailajapattipati@axcrypt.net");
         WebElement password= driver.findElement(By.id("login-temp-password"));
