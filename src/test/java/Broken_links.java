@@ -30,6 +30,12 @@ public class Broken_links {
         WebDriver driver = new ChromeDriver(opt);//Creating an instance of the WebDriver class
 
         driver.manage().window().maximize();
+        /*We can detect whether the given links are broken or not by using the following process:
+
+First, accumulate all the links present on a web page using the <a> anchor tag. For each <a> tag, use the attribute ‘href’ value to obtain the hyperlink
+Send HTTP requests for each link and verify the HTTP response code
+Based on the HTTP response code, determine if the link is valid or broken. Then, use the driver.get() method to navigate to a URL, which will respond with a status of 200 – OK (200 – OK indicates that the link is working). If we get any other status, then it indicates that the link is broken
+Repeat the same process for all the links captured*/
 
         driver.get(pageURL);//Launching the URl
         List<WebElement> allURLs = driver.findElements(By.tagName("a"));
