@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f05bbc8-0dab-443f-9610-7ad794adf5b9" name="Changes" comment="test">
+    <list default="true" id="1f05bbc8-0dab-443f-9610-7ad794adf5b9" name="Changes" comment="test3">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/java-selenium.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AXC_test_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AXC_test_Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Broken_links.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Broken_links.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +24,8 @@
     <branch-grouping />
     <option name="PUSH_TAGS">
       <GitPushTagMode>
-        <option name="argument" value="--follow-tags" />
-        <option name="title" value="Current Branch" />
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -145,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682348064980</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="test3">
+      <created>1685478399710</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685478399710</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,7 +175,8 @@
     <MESSAGE value="Pageobject AXC-login" />
     <MESSAGE value="test axcrypt" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="test3" />
+    <option name="LAST_COMMIT_MESSAGE" value="test3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
